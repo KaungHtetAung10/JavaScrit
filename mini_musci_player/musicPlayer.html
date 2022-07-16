@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/062fa66c84.js" crossorigin="anonymous"></script>
+    <!--Normal css-->
+    <link rel="stylesheet" href="musicPlayer.css">
+    <link rel="shortcut icon" href="#" >
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="songList"></div>
+        <div class="songDurationTime">
+            <span>00:00</span> / <span>00:00</span>
+        </div>
+        <div class="progressBar">
+            <div class="currentProgress"></div>
+        </div>
+        <div class="musicPlayerBtn">
+            <i class="fas fa-step-backward controls previousButton"></i>
+            <i class="fas fa-play-circle controls playButton"></i>
+            <i class="far fa-pause-circle controls playButton"></i>
+            <i class="fas fa-step-forward controls nextButton"></i>
+        </div>
+        <audio src=""  class="audio"></audio>
+        <div class="sound-control">
+            <i class="fas fa-volume-down"></i>
+            <input type="range" class="range" min="0" max="100" value="50">
+            <i class="fas fa-volume-up"></i>
+            <i class="fas fa-volume-mute"></i>
+        </div>
+    </div>
+    <script src="musicPlayer.js"></script>
+</body>
+</html>
