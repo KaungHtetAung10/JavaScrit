@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(14, 14, 46);
+    color: white;
+    cursor:pointer;
+}
+.main-container{
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sort-list li{
+    margin-top: 20px;
+    
+}
+.sort-list{
+    display: none;
+}
+.open{
+    display: block;
+}
+.btn-drop-down{
+    background-color: inherit;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border:red solid 1px;
+    position:"fixed";
+}
+
+.iPhone-image{
+    width : 150px;
+}
